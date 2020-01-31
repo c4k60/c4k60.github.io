@@ -951,6 +951,21 @@ Blog cá nhân</button>
 
 <!-- START CONTENT -->
 <div id="content"><h4><strong><i class="fas fa-clipboard-check"></i> Những thay đổi</strong></h4>
+<h5>Phiên bản 3.5</h5>
+<p>Ngày phát hành: 24/01/2020</p>
+
+<ul>
+<li>Bản cập nhật đầu xuân năm mới Canh Tý 2020</li>
+<li>Đã thêm tính năng "Videos"</li>
+<li>Đã hoàn thiện tính năng "Games"</li>
+<li>Đã xoá bỏ hình ảnh ở đầu trang</li>
+<li>Đã thêm Carousel ở đầu trang</li>
+<li>Đã thêm trang Đăng nhập</li>
+<li>Đã redesign lại navbar</li>
+<li>Đã thêm mục Thời khoá biểu</li>
+<li>Đã sửa lại ảnh của Tùng Anh</li>
+<li>Đã thêm tính năng gửi bằng cách nhấn Enter</li>
+</ul>
 
 <h5>Phiên bản 3.4</h5>
 <p>Ngày phát hành: 25/07/2019</p>
