@@ -107,12 +107,12 @@ font-size: 2rem;
     </style>
 <SCRIPT>
 function passWord(){
-if (key == 13) {
-$('#my_form').submit();
-alert("Form Submitted ...!!");
-}
-return false;
-}
+document.getElementById('body').onkeyup = function(e) {
+  if (e.keyCode === 13) {
+    document.getElementById('myform').submit(); // your form has an id="form"
+  }
+  return true;
+ }
 var password = document.getElementById('password').value;
 if (password == "ilovec4k60") {
 document.getElementById('passwordform').style.display = "none";
