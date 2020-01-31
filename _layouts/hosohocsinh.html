@@ -145,11 +145,12 @@ input.addEventListener("keyup", function(event) {
                    placeholder="Nhập mật khẩu"/>
           <p style="color:red;display:none" id="wrong">Mật khẩu sai! Vui lòng thử lại.</p>
 		  <script>
-		  document.addEventListener("keypress", function(event) {
-    if (event.keyCode == 13) {
-        document.myform.submit();
-    }
-})
+$('.input').keypress(function (e) {
+  if (e.which == 13) {
+    $('form#myform').submit();
+    return false;    //<---- Add this line
+  }
+});
 		  </script>
             <input type="button" class="staticrypt-decrypt-button" id="unlock" onClick="passWord()" value="MỞ KHOÁ"/>
         </form>
