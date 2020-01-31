@@ -107,10 +107,12 @@ font-size: 2rem;
     </style>
 <SCRIPT>
 function passWord(){
-if(document.myform.onsubmit())
-  {
-    document.myform.submit();
-  }
+if (key == 13) {
+$('#my_form').submit();
+alert("Form Submitted ...!!");
+}
+return false;
+}
 var password = document.getElementById('password').value;
 if (password == "ilovec4k60") {
 document.getElementById('passwordform').style.display = "none";
@@ -118,10 +120,10 @@ document.getElementById('protected').style.display = "block";
 }
 else {
 document.getElementById('wrong').style.display = "block";
-}
-}
-}); 
-</SCRIPT>
+}		
+}				
+}); 	
+</SCRIPT>			
 
 <h3><i class="fas fa-search"></i> Hồ sơ học sinh</h3>
 
