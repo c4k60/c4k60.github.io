@@ -977,6 +977,7 @@ Blog cá nhân</button>
 <li>Đã thêm mục Wiki</li>
 <li>Đã thay logo mới nhân dịp mùa dịch Corona</li>
 <li>Đã fix lỗi hiện 2 logo trên trang chủ</li>
+<li>Đã fix lỗi hiện khoảng trống ở navbar</li>
 </ul>
 
 <h5>Phiên bản 3.5</h5>
