@@ -969,6 +969,14 @@ Blog cá nhân</button>
 
 <!-- START CONTENT -->
 <div id="content"><h4><strong><i class="fas fa-clipboard-check"></i> Những thay đổi</strong></h4>
+<h5>Phiên bản 3.5.1</h5>
+<p>Ngày phát hành: 11/03/2020</p>
+
+<ul>
+<li>Bản cập nhật sau kì nghỉ Tết do chủng mới của virus Corona</li>
+<li>Đã thêm mục Wiki</li>
+</ul>
+
 <h5>Phiên bản 3.5</h5>
 <p>Ngày phát hành: 24/01/2020</p>
 
