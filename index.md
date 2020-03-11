@@ -975,6 +975,7 @@ Blog cá nhân</button>
 <ul>
 <li>Bản cập nhật sau kì nghỉ Tết do chủng mới của virus Corona</li>
 <li>Đã thêm mục Wiki</li>
+<li>Đã thay logo mới nhân dịp mùa dịch Corona</li>
 </ul>
 
 <h5>Phiên bản 3.5</h5>
