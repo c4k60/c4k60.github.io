@@ -109,6 +109,7 @@ setTimeout(MyFunction, 1);
 </style>
 <nav class="navbar fixed-top navbar-icon-top navbar-expand-lg navbar-light shadow-sm" style="background-color: #f6e100" id="navibar">
  <a href="https://c4k60.github.io"><img src="/logoc4k60.png" alt="Cổng thông tin điện tử C4K60" height="62" width="80"></a>
+ <a href="https://c4k60.online"><img src="/logoc4k60.png" alt="Cổng thông tin điện tử C4K60" height="62" width="80"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -117,6 +118,8 @@ setTimeout(MyFunction, 1);
     <ul class="navbar-nav mr-auto">
       <li class="nav-item {{ page.house }}">
         <a class="nav-link" href="https://c4k60.github.io">
+<li class="nav-item {{ page.house }}">
+        <a class="nav-link" href="https://c4k60.online">
           <i class="faf fas fa-home"></i>
           Trang chủ
           <span class="sr-only">(current)</span>
@@ -133,16 +136,28 @@ setTimeout(MyFunction, 1);
           <a class="dropdown-item {{ page.dtk }}" href="/diemtongket">Điểm tổng kết</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item {{ page.hs }}" href="/hoso">Hồ sơ học sinh</a>
-          <a class="dropdown-item {{ page.tkb }}" href="/thoikhoabieu">Thời khoá biểu</a>
           <a class="dropdown-item {{ page.btvn }}" href="/baitap">Bài tập về nhà</a>
           <a class="dropdown-item {{ page.snst }}" href="/sinhnhat">Sinh nhật sắp tới</a>
         </div>
+      </li>
+	   <li class="nav-item {{ page.tkb }}">
+        <a class="nav-link" href="/thoikhoabieu">
+          <i class="faf far fa-calendar-alt"></i>
+          Thời khoá biểu
+        </a>
       </li>
       <li class="nav-item {{ page.tva }}">
         <a class="nav-link" href="/thuvienanh">
           <i class="faf fas fa-images">
           </i>
           Thư viện ảnh
+        </a>
+      </li>
+	  <li class="nav-item {{ page.vd }}">
+        <a class="nav-link" href="/videos">
+          <i class="faf fas fa-video">
+		  </i>
+          Videos
         </a>
       </li>
             <li class="nav-item {{ page.games }}">
@@ -152,8 +167,13 @@ setTimeout(MyFunction, 1);
           Games
         </a>
       </li>
-    </ul>
-    <ul class="navbar-nav ">
+	    </li>
+	          <li class="nav-item {{ page.wiki }}">
+        <a class="nav-link" href="/wiki">
+          <i class="faf fab fa-wikipedia-w"></i>
+          Wiki
+        </a>
+      </li>
       <li class="nav-item {{ page.tbl }}">
         <a class="nav-link" href="/thongbaolop">
           <i class="faf fa fa-bell">
@@ -173,12 +193,133 @@ setTimeout(MyFunction, 1);
           <div class="dropdown-item" style="cursor: pointer;padding-top: 1.5rem;padding-bottom: 0.5rem;margin-bottom: 0px;" onclick="openBar()"><img src="/logoc4k60.png" height="30" width="40" style="margin-left: -13px;margin-bottom: -21px;padding-bottom: 0px;margin-top: 1px;padding-top: 0px;"> <div style="padding-top: 0px;margin-top: -28px;margin-left: 37px;"> <strong style="font-size:19px">Chát chít C4K60</strong><br><p>(1 tin nhắn mới)</p></div> <span style="float:right;margin-top: -51px;margin-right: -1px;padding-bottom: 0.25em;margin-bottom: 0px;" class="badge badge-danger">1</span></div>
         </div>
       </li>
+
+	    
     </ul>
     <form class="form-inline my-2 my-lg-0"method="get" action="https://www.google.com/search" target="_blank">
 <input type="hidden" name="sitesearch" value="https://c4k60.github.io" />
+	
+    <ul class="navbar-nav ">
+		  <form class="form-inline my-2 my-lg-0"method="get" action="https://www.google.com/search" target="_blank">
+<input type="hidden" name="sitesearch" value="https://c4k60.online" />
 <input class="form-control mr-sm-2" type="text" name="q" maxlength="255" placeholder="Tìm kiếm trong trang" />
       <button class="btn btn-outline-danger my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
     </form>
+	  <li class="dropdown">
+	  <li class="nav-item {{ page.log }}">
+        <a class="nav-link" href="#" class="dropdown-toggle" data-toggle="dropdown">
+          <i class="faf fas fa-sign-in-alt"> <span class="caret"></span>
+            <span class="badge badge-danger" id="tbl"></span>
+          </i>
+          Đăng nhập
+        </a>
+		<ul id="login-dp" class="dropdown-menu" style="
+    left: 607px;
+    top: 92px;
+    padding-left: 15px;
+    border-left-width: 01px;
+    margin-left: 284px;
+">
+<script>
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    window.location = "https://c4k60.online/login"; 
+}
+</script>
+	<li>
+					 <div class="row">
+							<div class="col-md-12">
+								Login via
+								<div class="social-buttons">
+									<a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+									<a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+								</div>
+                                or
+								 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputEmail2">Email address</label>
+											 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+										</div>
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputPassword2">Password</label>
+											 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                             <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+										</div>
+										<div class="form-group">
+											 <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+										</div>
+										<div class="checkbox">
+											 <label>
+											 <input type="checkbox"> keep me logged-in
+											 </label>
+										</div>
+								 </form>
+							</div>
+							<div class="bottom text-center">
+								New here ? <a href="#"><b>Join Us</b></a>
+							</div>
+					 </div>
+				</li>
+			</ul>
+        </li>
+	  </li>
+    </ul>
+      </li>
+				
+        
   </div>
 </nav>
 <div class="container">
+<style>
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+</style>
