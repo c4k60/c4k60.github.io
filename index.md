@@ -976,6 +976,7 @@ Blog cá nhân</button>
 <li>Bản cập nhật sau kì nghỉ Tết do chủng mới của virus Corona</li>
 <li>Đã thêm mục Wiki</li>
 <li>Đã thay logo mới nhân dịp mùa dịch Corona</li>
+<li>Đã fix lỗi hiện 2 logo trên trang chủ</li>
 </ul>
 
 <h5>Phiên bản 3.5</h5>
