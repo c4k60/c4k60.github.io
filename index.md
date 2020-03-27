@@ -969,6 +969,18 @@ Blog cá nhân</button>
 
 <!-- START CONTENT -->
 <div id="content"><h4><strong><i class="fas fa-clipboard-check"></i> Những thay đổi</strong></h4>
+<h5>Phiên bản 3.5.2</h5>
+<p>Ngày phát hành: 27/03/2020</p>
+
+<ul>
+<li>Bản cập nhật trong kì nghỉ Tết do chủng mới của virus Corona</li>
+<li>Đã thêm thông báo về dịch COVID-19 và đường dẫn đến trang web của Bộ Y Tế ở đầu mọi trang</li>
+<li>Đã fix lỗi chuyển hướng trang web vô tận số lần</li>
+<li>Đã xoá thông báo lớp cũ từ trước đây</li>
+<li>Đã xoá nút đăng nhập ở thanh navbar</li>
+<li>Đã thêm thông báo nghỉ học</li>
+</ul>
+
 <h5>Phiên bản 3.5.1</h5>
 <p>Ngày phát hành: 11/03/2020</p>
 
