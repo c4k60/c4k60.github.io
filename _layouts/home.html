@@ -7,17 +7,17 @@
 $(document).ready(function() {
     // show the alert
     setTimeout(function() {
-        $(".alert").alert('close');
+        $(".dismiss").alert('close');
     }, 5000);
 });
 </script>
     {% include navbar.html %}
     {% include chatbar.html %}
-    <div class="alert-danger alert-dismissible " id="danger-alert">
+    <div class="alert alert-danger alert-dismissible " id="danger-alert">
   <button type="button" class="close" data-dismiss="alert">&times;</button>
   <strong><i class="fas fa-lungs-virus"></i> Bệnh viêm đường hô hấp cấp do chủng mới của vi-rút corona (COVID-19): </strong>  Xem thông tin mới nhất từ Bộ Y Tế Việt Nam về dịch COVID-19 <a href="https://ncov.moh.gov.vn/">Bộ Y Tế</a>
 </div>
-    <div class="alert alert-primary alert-dismissible fade show" id="danger-alert">
+    <div class="alert alert-primary alert-dismissible fade show dismiss" id="danger-alert">
   <button type="button" class="close" data-dismiss="alert">&times;</button>
   <strong><i class="fas fa-coffee"></i> Top Donator:</strong> <a href="https://facebook.com/ndhai1012">Nguyễn Đặng Hải</a> - 8$. Cảm ơn bạn vì đã ủng hộ! Đóng góp của bạn là động lực rất lớn để chúng tôi hoàn thiện trang web này.
 </div>
