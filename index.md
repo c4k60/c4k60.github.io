@@ -117,16 +117,16 @@ house: active
     <h5>Welcome to {{ site.title }}</h5>
     <p>{{ site.description }}</p>
   </div>
-    </div>
-    <div class="carousel-item">
+  </div>
+<div class="carousel-item">
       <img class="d-block w-100" src="/2.jpg" alt="Second slide">
     </div>
-    <div class="carousel-item">
+<div class="carousel-item">
       <img class="d-block w-100" src="/3.jpg" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
   <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
@@ -135,8 +135,8 @@ house: active
   </a>
 </div>
 
-   <div class="row marketing" style="display:block">
-        <div>
+<div class="row marketing" style="display:block">
+    <div>
           <h4><strong><i class="fas fa-question-circle"></i> Đây là gì?</strong></h4>
 <p>Chào mừng đến với cổng thông tin điện tử dành cho học sinh C4K60! Trang web này là công cụ để tra cứu dễ dàng các thông tin của lớp 11 Nga THPT Chuyên Hà Nam</p>
 <h4><strong><i class="fas fa-bullhorn"></i> Thông báo lớp</strong></h4>
