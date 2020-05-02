@@ -3,6 +3,7 @@ layout: default
 title: Thời khoá biểu
 permalink: /thoikhoabieu/
 tkb: active
+published: true
 ---
 <style>
 .equilibrium{
@@ -104,7 +105,7 @@ line-height: 100%;
 </tr>
 <tr>
         <th class="table-active">Tiết 4</th>
-        <td class="table-warning">Toán học</td>
+        <td class="table-warning">Tieng Nga</td>
     <td class="table-warning">Tiếng Nga</td>
     <td class="table-success">Tiếng Anh</td>
     <td class="table-warning">Sinh học</td>
