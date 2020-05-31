@@ -59,8 +59,8 @@ line-height: 100%;
   clip-path: polygon(100% 0%, 0% 0%, 0% 100%);
 }
     </style>
-<h3><i class="far fa-calendar-alt"></i> Thời khoá biểu (Tuần 9) - 11C4</h3>
-<h5>Áp dụng từ ngày 28/10/2019</h5>
+<h3><i class="far fa-calendar-alt"></i> Thời khoá biểu (Tuần 34) - 11C4</h3>
+<h5>Áp dụng từ ngày 25/05/2020</h5>
 <br/>
 <table class="table table-bordered">
 <thead>
@@ -80,55 +80,55 @@ line-height: 100%;
     <th class="table-active">Buổi sáng<br/>Tiết 1</th>
     <td class="table-info">CHÀO CỜ</td>
     <td class="table-warning">Văn học</td>
-    <td class="table-success">Địa lý</td>
-    <td class="table-info">Thể dục</td>
-    <td class="table-warning">Tiếng Nga</td>
-    <td class="table-warning">Toán</td>
+    <td class="table-success">Tiếng Nga</td>
+    <td class="table-success">Sinh học</td>
+    <td class="table-success">Tiếng Nga</td>
+    <td class="table-warning">Toán (hình)</td>
     </tr>
     <tr>
         <th class="table-active">Tiết 2</th>
-        <td class="table-danger">Vật lý</td>
+        <td class="table-warning">Vật lý</td>
     <td class="table-warning">Văn học</td>
-    <td class="table-info">Thể dục</td>
-    <td class="table-warning">GDCD</td>
-    <td class="table-warning">Tiếng Nga</td>
-    <td class="table-warning">Toán</td>
+    <td class="table-success">Thể dục</td>
+    <td class="table-success">GDCD</td>
+    <td class="table-success">Tiếng Nga</td>
+    <td class="table-warning">Toán (hình)</td>
 </tr>
 <tr>
         <th class="table-active">Tiết 3</th>
-        <td class="table-warning">Tiếng Nga</td>
-    <td class="table-warning">Tiếng Nga</td>
-    <td class="table-danger">Vật lý</td>
-    <td class="table-warning">Toán</td>
-    <td class="table-warning">Toán</td>
-    <td class="table-danger">Hoá học</td>
+        <td class="table-success">Tiếng Nga</td>
+    <td class="table-warning">Vật lý</td>
+    <td class="table-success">Địa lý</td>
+    <td class="table-warning">Toán (đại)</td>
+    <td class="table-warning">Hoá học</td>
+    <td class="table-danger">Công nghệ</td>
 </tr>
 <tr>
         <th class="table-active">Tiết 4</th>
-        <td class="table-warning">Tieng Nga</td>
-    <td class="table-warning">Tiếng Nga</td>
-    <td class="table-success">Tiếng Anh</td>
-    <td class="table-warning">Sinh học</td>
-    <td class="table-warning">Văn học</td>
-    <td class="table-success">Công nghệ</td>
+        <td class="table-success">Tiếng Nga</td>
+    <td class="table-success">GDQP</td>
+    <td class="table-warning">Toán (đại)</td>
+    <td class="table-success">Thể dục</td>
+    <td class="table-success">Sinh học</td>
+    <td class="table-warning">Hoá học</td>
 </tr>
 <tr>
         <th class="table-active">Tiết 5</th>
         <td class="table-warning">Văn học</td>
-    <td class="table-success">Tin học</td>
-    <td class="table-success">GDQP</td>
+    <td class="table-danger">Tin học</td>
+    <td class="table-danger">Công nghệ</td>
+    <td class="table-success">Tiếng Anh</td>
+    <td class="table-danger">Tin học</td>
     <td class="table-success">Lịch sử</td>
-    <td class="table-danger">Hoá học</td>
-    <td class="table-info">SINH HOẠT</td>
 </tr>
  <tr>
     <th class="table-active">Buổi chiều</th>
-    <td class="table-info">(nghỉ)</td>
+    <td class="table-warning">Văn học</td>
     <td class="table-warning">Toán học</td>
     <td class="table-warning">Tiếng Nga</td>
     <td class="table-warning">Tiếng Nga</td>
     <td class="table-warning">Tiếng Nga</td>
-    <td class="table-warning">Văn học</td>
+    <td class="table-info">(Nghỉ)</td>
 </tr>
 </tbody>
 </table>
