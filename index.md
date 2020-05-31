@@ -969,6 +969,15 @@ Blog cá nhân</button>
 
 <!-- START CONTENT -->
 <div id="content"><h4><strong><i class="fas fa-clipboard-check"></i> Những thay đổi</strong></h4>
+
+<h5>Phiên bản 3.5.3</h5>
+<p>Ngày phát hành: 31/05/2020</p>
+
+<ul>
+<li>Bản cập nhật trong tuần học bù sau dịch Covid-19</li>
+<li>Đã cập nhật thời khoá biểu theo màu mới sau khoảng nửa năm không cập nhật</li>
+</ul>
+
 <h5>Phiên bản 3.5.2</h5>
 <p>Ngày phát hành: 27/03/2020</p>
 
